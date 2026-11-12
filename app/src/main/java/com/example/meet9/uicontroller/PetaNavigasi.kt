@@ -21,3 +21,8 @@ import com.example.meet9.view.DestinasiEntry
 import com.example.meet9.view.HomeScreen
 import com.example.meet9.view.EntrySiswaScreen
 
+
+@Composable
+fun SiswaApp(navController: NavHostController= rememberNavController()){
+    HostNavigasi(navController = navController)
+}
