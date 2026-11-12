@@ -49,3 +49,11 @@ data class DetailsSiswa(
     val telepon: String = "",
 )
 
+/* Fungsi untuk mengkonversi data input ke data dalam tabel sesuai jenis datanya*/
+fun DetailsSiswa.toSiswa(): Siswa = Siswa(
+    id = id,
+    nama = nama,
+    alamat = alamat,
+    telepon = telepon
+)
+
