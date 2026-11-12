@@ -41,3 +41,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Meet9Theme {
+        Greeting("Android")
+    }
+}
