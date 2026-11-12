@@ -32,3 +32,8 @@ import com.example.meet9.viewmodel.UIStateSiswa
 import com.example.meet9.viewmodel.DetailsSiswa
 import com.example.meet9.viewmodel.toSiswa
 import kotlinx.coroutines.launch
+
+object DestinasiEntry: DestinasiNavigasi {
+    override val route = "item_entry"
+    override val titleRes = R.string.entry_siswa
+}
