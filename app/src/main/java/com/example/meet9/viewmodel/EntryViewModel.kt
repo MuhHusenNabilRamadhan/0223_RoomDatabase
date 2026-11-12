@@ -34,3 +34,11 @@ class EntryViewModel(private val repositoriSiswa: RepositoriSiswa): ViewModel() 
         }
     }
 }
+/**
+ * Mewakili Status Ui untuk Siswa.
+ */
+data class UIStateSiswa(
+    val detailsSiswa: DetailsSiswa = DetailsSiswa(),
+    val isEntryValid: Boolean = false
+)
+
